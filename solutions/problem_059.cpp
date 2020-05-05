@@ -2,6 +2,7 @@
 // Assume the files are stored in fixed-sized blocks on disk
 
 #include <bits/stdc++.h>
+// compile using -lcrypto flag
 #include <openssl/sha.h>
 using namespace std;
 
