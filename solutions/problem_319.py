@@ -1,3 +1,7 @@
+# Some sample inputs:
+# 123456078 523184760 502143786 
+
+
 import pygame, random, sys
 from queue import Queue
 
@@ -166,7 +170,7 @@ def main():
                 drawGrid(getGrid(states[i]))
                 i += 1
                 text = FONT.render("STEP:  " + str(i), True, BLACK)
-                SCREEN.fill(GREEN, (100, 20, 135, 35))
+                SCREEN.fill(GREEN, (100, 20, 235, 35))
                 SCREEN.blit(text, [100, 20])
                 pygame.display.update()
             elif event.type == pygame.QUIT:
